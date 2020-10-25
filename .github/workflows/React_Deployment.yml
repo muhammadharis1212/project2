@@ -37,4 +37,4 @@ jobs:
       - name: install surge
         run: sudo npm install --global surge
       - name: deploy to surge
-        run: surge ./build reactbasicapp.surge.su --token ${{secrets.REACTAPP_TOKEN}}
+        run: surge ./build harisreactbasicapp2020.surge.sh --token ${{secrets.REACTAPP_TOKEN}}
