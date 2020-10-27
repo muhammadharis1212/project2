@@ -5,7 +5,31 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <div><App name="Muhammad Haris" age="25" /></div>,
+  <div className="mystyle">
+    <App name="Muhammad Haris" age={25} />
+    <div>Hello from <strong>Haris</strong>
+    <h1>Your Turn</h1>
+    5 + 10 = {5+10}
+    <div>
+      <h2>Unordered list</h2>
+      <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Ordered list</h2>
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+    </div>
+    
+    </div>
+
+  </div>,
   document.getElementById('root')
 );
 

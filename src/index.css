@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.mystyle {
+  background-color: brown;
+  font-size: large;
+  padding-left: 20px;
+}
